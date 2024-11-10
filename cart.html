@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ganti Background Abu Muda</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: #e4e4e4be; 
+            margin: 0; 
+            height: 100vh; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#Cart</h2>
+        <p>Lihat isi dan game yang akan di beli</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Hapus</td>
+                    <td>Gambar</td>
+                    <td>Game</td>
+                    <td>Harga</td>
+                    <td>Jumlah</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle" style="color:black"></i></a></td>
+                    <td><img src="images/products/f1.jpg" alt=""></td>
+                    <td>NBA 2k25</td>
+                    <td>$78</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$78</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle" style="color:black"></i></a></td>
+                    <td><img src="images/products/f2.jpg" alt=""></td>
+                    <td>The Last of Us part 2</td>
+                    <td>$125</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$125</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle" style="color:black"></i></a></td>
+                    <td><img src="images/products/f3.jpg" alt=""></td>
+                    <td>Spider-man 2: Miles Morales</td>
+                    <td>$88</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$88</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div class="coupon">
+            <h3>Gunakan Kupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Pakai</button>
+            </div>
+        </div>
+        <div class="subtotal">
+            <h3>Total Keranjang</h3>
+            <table>
+                <tr>
+                    <td>Total Keranjang</td>
+                    <td>$ 291</td>
+                </tr>
+                <tr>
+                    <td>Pengiriman</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Harga</strong></td>
+                    <td><strong>$ 291</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Bayar Sekarang</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Universitas Djuanda,Ciawi, Kabupaten Bogor - 16720</p>
+            <p><strong>Phone:</strong> +62 858 - 1426 - 4884</p>
+            <p><strong>Email:</strong> Kelgamers@gmail.com</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100093187950929" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/MohamadBayuSap4" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/himaster.unida/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@By_sptr" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a class="active" href="about.html">About Us</a>
+            <a href="#">Informasi Pengiriman</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Daftar</a>
+            <a class="active" href="cart.html">Lihat keseruan</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="copyright">
+            <p>Created By M Bayu Saputra | M Dzikri Ramdhani | Fadhlan Taufiqurrahman</p>
+        </div>
+    </footer>
+
+    <!-- javascript script file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
